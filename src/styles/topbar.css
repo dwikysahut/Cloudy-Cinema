@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,900;1,600&family=Quicksand:wght@400;700&display=swap");
+
+
+top-bar {
+    top: 0;
+    display: block;
+    background-color: white;
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
+
+    padding: 0 1%;
+    height: auto;
+}
+
+header {
+    
+    padding: 0 !important;
+}
+
+nav {
+    background-color: white !important;
+    position: sticky;
+    top: 0;
+    text-align: center;
+}
+
+.topnav.list-bar {
+    height: 100%;
+}
+
+
+nav a:hover {
+    text-decoration: none;
+    font-weight: bold;
+    background: #03045E;
+    padding: 15px 20px;
+    color: white;
+    border-radius: 4px;
+    font-weight: normal;
+    transition: all 0.2s ease-in-out;
+}
+
+nav a.active {
+    font-weight: bold;
+    text-decoration: none;
+    background: #03045E;
+    padding: 15px 20px;
+    color: white;
+    border-radius: 4px;
+    font-weight: normal;
+}
+
+nav a.active:hover {
+    font-weight: bold;
+    text-decoration: none;
+    border: 2px solid #03045E;
+    background: white;
+    padding: 15px 20px;
+    color: #03045E;
+    border-radius: 4px;
+    font-weight: normal;
+}
+
+nav a {
+    text-decoration: none;
+    color: #452963;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 0 5px;
+}
+
+nav li {
+    display: inline-block;
+    align-content: center;
+    list-style-type: none;
+
+}
+
+ul {
+    padding: 0 !important;
+    margin-top: 1em;
+
+}
+
+.nav-item {
+    align-self: center;
+}
+
+.navbar-nav,
+.mr-auto {
+    flex: 1;
+    display: flex;
+    margin-right: 20px;
+    justify-content: flex-end;
+}
+
+.nav-link.active {
+    color: wheat !important;
+}
+
+.nav-link:hover {
+    color: wheat !important;
+    background-color: #03045E;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .navbar-nav,
+    .mr-auto {
+        flex: 1;
+        display: flex;
+        margin: auto;
+    }
+
+    .nav-item {
+        align-self: auto;
+    }
+}

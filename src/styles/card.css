@@ -1,0 +1,43 @@
+
+.card {
+    border-radius: 20px;
+    cursor: pointer;
+    /* width: 18rem; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    /* max-height: 400px; */
+    
+}
+
+.card img.img-card{
+    object-fit: cover;
+    max-height: 180px;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    
+    
+}
+.card-body .card-title {
+    font-size: 0.9rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1; /* number of lines to show */
+    -webkit-box-orient: vertical;
+}
+.card-body .card-text {
+    font-size: 0.7rem;
+    overflow: auto;
+   
+  
+}
+.card-text.genre{
+    opacity: 0.5;
+}
+.card-text.desc {
+    font-size: 0.8rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* number of lines to show */
+    -webkit-box-orient: vertical;
+}

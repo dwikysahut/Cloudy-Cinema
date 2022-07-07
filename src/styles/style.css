@@ -1,0 +1,50 @@
+@import 'topbar.css';
+@import 'footer.css';
+@import 'searchbar.css';
+@import 'card.css';
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0 !important;
+    padding: 0;
+}
+main {
+    min-height: 100vh;
+}
+
+
+.form-check {
+    color: #03045E;
+}
+
+.spinner-border.text-info{
+    margin: auto;
+    display: none;
+}
+.filter-text {
+    color: #03045E;
+    font-weight: 600;
+}
+label{
+    font-size: 0.8rem;
+}
+.filter-top {
+    justify-content: space-between;
+}
+@media screen and (max-width: 650px) {
+    .type-content{
+        display: flex;
+        flex-direction: row !important;
+        justify-content: space-between;
+    }
+}
+.visible {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+    transition: visibility 0s linear 0s,opacity .25s 0s,transform .25s;
+  }
